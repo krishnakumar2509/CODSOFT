@@ -230,3 +230,23 @@ align-items: center;
     color: rgb(2, 78, 89);
    font-weight:bold ;
 }
+#footer {
+  background-color: rgb(2, 78, 89);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: rgb(6, 136, 156);
+}

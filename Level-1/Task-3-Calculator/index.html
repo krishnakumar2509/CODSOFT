@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./img/calculator.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cal-con">
+      <div id="disp-con">
+        <input type="text" id="input" placeholder="0" >
+      </div>
+      <div id="but-con">
+        <button id="" onclick="clearScreen()" class="opr-button" >A/C</button>
+        <button id="" onclick="Delete()" class="opr-button">DEL</button>
+        <button id="" onclick="press('/')" class="opr-button">/</button>
+        <button id="" onclick="press('*')" class="opr-button">*</button>
+        <button id="" onclick="press('7')" class="button">7</button>
+        <button id="" onclick="press('8')" class="button">8</button>
+        <button id="" onclick="press('9')" class="button">9</button>
+        <button id="" onclick="press('-')" class="opr-button">-</button>
+        <button id="" onclick="press('4')" class="button">4</button>
+        <button id="" onclick="press('5')" class="button">5</button>
+        <button id="" onclick="press('6')" class="button">6</button>
+        <button id="" onclick="press('+')" class="opr-button">+</button>
+        <button id="" onclick="press('1')" class="button">1</button>
+        <button id="" onclick="press('2')" class="button">2</button>
+        <button id="" onclick="press('3')" class="button">3</button>
+        <button id="eq" onclick="calculate()" class="opr-button">=</button>
+        <button id="ze" onclick="press('0')" class="button">0</button>
+        <button id="" onclick="press('.')" class="button">.</button>
+      </div>
+    </div>
+    
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(207, 207, 207);
+     height: 100vh;
+}
+#cal-con{
+   
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+#disp-con input{
+    
+    height: 100px;
+    width:98%;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    border: none;
+
+}
+#disp-con input::placeholder{
+    color: black;
+}
+#but-con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+    padding: 15px;
+}
+.button{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(62, 62, 62);
+    font-size: large;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.opr-button{
+     padding: 20px;
+    text-align: center;
+    background-color: orange;
+    font-size: large;
+     font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+#but-con #eq{
+    grid-row:span 2;
+    
+}
+#but-con #ze{
+    grid-column: span 2;
+}

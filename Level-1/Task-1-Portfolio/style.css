@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Use a specific number like 400, 500, or 700 */
+  font-style: normal;
+  background-color: white;
+  color: black;
+}header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 60px;
+  background-color: rgb(2, 78, 89);
+  color: white;
+}
+
+header h1 {
+  color: rgb(6, 136, 156);
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: rgb(6, 136, 156);
+}
+
+/* HERO SECTION */
+#hero {
+  display: flex;
+  align-items: center;              
+  justify-content: space-between;                   
+  padding:60px;
+}
+
+/* LEFT TEXT */
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.hero-text h4 {
+  color: rgb(2, 78, 89);
+  margin-bottom: 10px;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.buttons a {
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+/* PRIMARY BUTTON */
+.primary {
+  background-color: rgb(6, 136, 156);
+  border: none;
+  color: black;
+}
+.primary:hover {
+    opacity: 0.8;
+}
+
+/* OUTLINE BUTTON */
+.outline {
+  background-color: transparent;
+  border: 2px solid rgb(6, 136, 156);
+}
+
+/* RIGHT IMAGE */
+.hero-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+#about{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+#about img{
+    
+    display: flex;
+    justify-content: center;
+    padding:60px;
+    width: 300px;
+    height: 300px;
+    object-fit:fill;
+    border-radius: 50%;
+}
+#skills{
+    padding:60px;
+}
+#skill-container{
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+.skill-con{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color:rgb(6, 136, 156);
+    border-radius: 15%;
+    padding-top: 20px;
+    font-size: larger;
+}
+.skill-con img{
+    height: 150px;
+    width: 150px;
+}
+#projects{
+    padding:60px;
+}
+#project-container{
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+.proj-con{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+    padding: 70px;
+    font-size: larger;
+    border: 2px solid rgb(6, 136, 156);
+    
+}
+.proj-con img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 20px;
+}
+.proj-con a{
+    text-decoration: none;
+}
+.proj-con:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#resume{
+    padding:60px;
+}
+#res-con{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 5px;
+}
+#res-con a{
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: rgb(6, 136, 156);
+  text-decoration: none;
+  color: black;
+}
+#res-con a:hover {
+    opacity: 0.8;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-container{
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 20px;
+}
+.con-con{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    background-color:rgb(6, 136, 156) ;
+    margin:10px 5px 10px 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.con-con img{
+    width: 40px;
+    height: 40px;
+}
+
+.pp{
+    color: rgb(2, 78, 89);
+   font-weight:bold ;
+}
+#footer {
+  background-color: rgb(2, 78, 89);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: rgb(6, 136, 156);
+}
